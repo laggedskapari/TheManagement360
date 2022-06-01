@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="../public/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap">
+
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="headerContainer">
+            <div class="logo">
+                <img src="../public/images/graduates.png" alt="3 Students">
+                <p>THE <br> MANAGEMENT<br> 360</p>
+            </div>
+        </div>
+    </div>
+    <div class="loginContainer">
+        <div class="StudentLoginContainer">
+            <img src="../public/images/graduated.png" alt="3 Students">
+        </div>
+
+        <div class="AdminLoginContainer">
+            <img src="../public/images/team-management.png" alt="3 Students">
+        </div>
+    </div>
+</body>
+</html>
+
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Roboto Condensed, "Helvetica Neue", sans-serif;
+    }
+
+    body{
+        background-color: #2b3134;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Roboto Condensed, "Helvetica Neue", sans-serif;
+    }
+
+    .logo{
+        display: flex;
+    }
+
+    .logo img{
+        width: 60px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .logo p{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 16px;
+        font-weight : bold;
+        color: rgba(255, 255, 255, 0.68);
+    }
+
+    .loginContainer{
+
+        display: flex;
+        padding: 50px;
+        margin: 100px auto auto;
+        align-content: center;
+        align-items: center;
+        width: 400px;
+
+    }
+
+    .StudentLoginContainer, .AdminLoginContainer{
+        border: 3px solid rgba(255, 255, 255, 0.31);
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        border-radius: 10px;
+        padding: 50px 50px 70px;
+    }
+
+    .StudentLoginContainer{
+        margin-right: 20px;
+    }
+
+    .AdminLoginContainer img{
+        margin-top: 30px;
+        width: 100px;
+        height: auto;
+    }
+
+    .StudentLoginContainer img{
+        margin-top: 30px;
+        width: 100px;
+        height: auto;
+    }
+
+
+    .AdminLoginContainer:after{
+        color: #2b3134;
+        border-color:  rgba(255, 255, 255, 0.31);
+    }
+
+    .AdminLoginContainer:hover{
+        border-color: #15e3e3;
+    }
+    .AdminLoginContainer:hover:after{
+        border-color: #15e3e3;
+    }
+    .AdminLoginContainer:active:after{
+        border-color: #15e3e3;
+    }
+
+    .StudentLoginContainer:after{
+        color: #2b3134;
+        border-color:  rgba(255, 255, 255, 0.31);
+    }
+
+    .StudentLoginContainer:hover{
+        border-color: #E3156BFF;
+    }
+    .StudentLoginContainer:hover:after{
+        border-color: #E3156BFF;
+    }
+    .StudentLoginContainer:active:after{
+        border-color: #E3156BFF;
+    }
+
+</style>
